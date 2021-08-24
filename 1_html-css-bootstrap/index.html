@@ -3,6 +3,8 @@
     <head>
         <title>aquashdw's homepage</title>
         <link href="./practice.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="./sum.js"></script>
+        <script type="text/javascript" src="./get_time.js"></script>
     </head>
     <body>
         <nav>
@@ -14,9 +16,20 @@
         <h1>header 1</h1>
         <h2>header 2</h2>
         <h3>header 3</h3>
-        <h4>header 4</h4>
+        <!-- <h4>header 4</h4>
         <h5>header 5</h5>
-        <h6>header 6</h6>
+        <h6>header 6</h6> -->
+        <hr>
+        <button onclick="getTime()">현재시간</button>
+        <hr>
+
+        <label for="inputA">a</label>
+        <input id="inputA" value=1 onkeyup="sum()">
+        <label for="inputB">b</label>
+        <input id="inputB" value=2 onkeyup="sum()">
+        <p><span id="valueA">1</span> + <span id="valueB">2</span> = <span id="valueC">3</span>입니다.</p>
+        <hr>
+
         <p>paragraph</p>
         <a href="https://www.google.com">Google</a>
         <hr/>
